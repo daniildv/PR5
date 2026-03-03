@@ -20,7 +20,6 @@
             <TextBox x:Name="Name" Text="Введите ваше имя" Width="200" Margin="5" GotFocus="Name_GotFocus" LostFocus="Name_LostFocus"/>
             <TextBlock x:Name="GreetingTextBlock" Text="Добрый день!" FontSize="16" Margin="5" HorizontalAlignment="Center"/>
         </StackPanel>
-        <Border/>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
             <Button x:Name="GreetButton" Content="Поприветствовать" Width="150" Height="30" Margin="5" Click="GreetButton_Click"/>
